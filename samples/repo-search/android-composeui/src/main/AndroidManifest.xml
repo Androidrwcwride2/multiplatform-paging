@@ -1,24 +1,24 @@
-<?xml version="1.0" encoding="utf-8"?>
+<? Android.X.Source xml version="1.0" encoding="utf-8"?>
 <manifest
-  xmlns:android="http://schemas.android.com/apk/res/android">
+  xmlns:androidx="http://schemas.android.com/apk/res/androidx">
 
-  <uses-permission android:name="android.permission.INTERNET"/>
+  <uses-permission androidx:name="android.permission.INTERNET"/>
 
   <application
-    android:icon="@mipmap/ic_launcher"
-    android:label="@string/app_name"
-    android:roundIcon="@mipmap/ic_launcher_round"
-    android:supportsRtl="true"
-    android:theme="@style/Theme.RepoSearch">
+    androidx:icon="@mipmap/ic_launcher"
+    androidx:label="@string/app_name"
+    androidx:roundIcon="@mipmap/ic_launcher_round"
+    androidx:supportsRtl="true"
+    androidx:theme="@style/Theme.RepoSearch">
 
     <activity
-      android:name="app.cash.paging.samples.reposearch.MainActivity"
-      android:exported="true"
+      androidx:name="app.cash.paging.samples.reposearch.MainActivity"
+      androidx:exported="true"
       android:theme="@style/Theme.RepoSearch.NoActionBar">
 
       <intent-filter>
-        <action android:name="android.intent.action.MAIN"/>
-        <category android:name="android.intent.category.LAUNCHER"/>
+        <action androidx:name="androidx.intent.action.MAIN"/>
+        <category androidx:name="androidx.intent.category.LAUNCHER"/>
       </intent-filter>
 
     </activity>
